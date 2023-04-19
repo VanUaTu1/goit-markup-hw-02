@@ -74,12 +74,17 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
+    letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 }
 
 .nav-link .link:hover,
 .nav-link .link:focus {
     color: var(--color-ocean);
+}
+
+.adress-link {
+    font-style: normal;
 }
 
 .contact-list {
