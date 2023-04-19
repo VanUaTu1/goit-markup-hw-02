@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Roboto';
-    background-color: var(--color-white);
+    color: var(--color-navy-blue);
 }
 
 .head-logo {
@@ -29,7 +29,7 @@ body {
     font-size: 18px;
     line-height: 21px;
     text-decoration: var(--text-decoration);
-    color: var(--color-navy-blue);
+    color: inherit;
 }
 
 .footer {
@@ -54,7 +54,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-decoration: var(--text-decoration);
-    color: var(--color-navy-blue);
+    color: inherit;
 }
 
 .nav-link .link:hover,
@@ -115,7 +115,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: var(--color-navy-blue);
+    color: inherit;
 }
 
 .advantage-list>li {
@@ -123,17 +123,16 @@ body {
 }
 
 .advantage-list>li>p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: var(--color-slate);
+    color: inherit;
 }
 
 .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    color: var(--color-navy-blue);
+    color: inherit;
 }
 
 .team-section {
@@ -150,11 +149,10 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: var(--color-navy-blue);
+    color: inherit;
 }
 
 .team-section>ul>li>p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--color-slate);
@@ -166,7 +164,6 @@ body {
 }
 
 .footer>p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--color-cloud);
@@ -213,7 +210,6 @@ body {
 }
 
 .main-section-catalogue .link>p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--color-slate);
