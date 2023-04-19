@@ -94,7 +94,7 @@ body {
 
 .hero-button {
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -174,7 +174,7 @@ body {
 
 .filter-button {
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: inherit;
     width: 116px;
     height: 48px;
     font-weight: 500;
