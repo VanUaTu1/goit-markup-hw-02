@@ -32,6 +32,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: var(--text-decoration);
+    color: var(--color-iris)
+}
+
+.head-logo .logo-studio {
     color: var(--color-navy-blue);
 }
 
@@ -43,13 +47,19 @@ body {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-decoration: var(--text-decoration);
-    color: var(--color-cloud);
+    color: var(--color-iris);
 }
 
-.logo-web {
-    color: var(--color-iris);
+.logo-studio {
+    color: var(--color-navy-blue);
+}
+
+.footer .logo-studio {
+    color: var(--color-cloud)
 }
 
 .nav-link .link {
