@@ -154,7 +154,7 @@ body {
   | 2nd section
   |============================
 */
-.advantage-list .title .advantage-list .list {
+.advantage-list .list {
     list-style: none;
 }
 
@@ -175,6 +175,26 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: inherit;
+}
+
+/**
+  |============================
+  | 3rd section
+  |============================
+*/
+
+.img-section .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--color-navy-blue);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.img-section .list {
+    list-style: none;
 }
 
 /**
