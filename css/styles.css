@@ -93,11 +93,11 @@ body {
     font-style: normal;
 }
 
-.adress-link .contact-list .link {
+.adress-link .link {
     list-style: none;
 }
 
-.contact-list .link {
+.adress-link .link {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -106,8 +106,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.contact-list .link:hover,
-.contact-list .link:focus {
+.adress-link .link:hover,
+.adress-link .link:focus {
     color: var(--color-ocean);
 }
 
