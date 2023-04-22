@@ -44,23 +44,8 @@ body {
     color: var(--color-navy-blue);
 }
 
-.footer .logo {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--color-iris);
-}
-
 .logo-studio {
     color: var(--color-navy-blue);
-}
-
-.footer .logo-studio {
-    color: var(--color-cloud)
 }
 
 .head-logo .list {
@@ -245,8 +230,24 @@ body {
 */
 
 .footer {
+    background-color: var(--color-navy-blue);
     width: 1440px;
     height: 312px;
+}
+
+.footer .link {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-iris);
+}
+
+.footer .logo-studio {
+    color: var(--color-cloud);
 }
 
 .footer>p {
@@ -254,6 +255,12 @@ body {
     line-height: 24px;
     color: var(--color-cloud);
 }
+
+/**
+  |============================
+  | 
+  |============================
+*/
 
 .filter-button {
     cursor: pointer;
