@@ -19,6 +19,12 @@ body {
     background-color: var(--color-white);
 }
 
+/**
+  |============================
+  | Header & Footer + Logo
+  |============================
+*/
+
 .head-logo {
     background-color: var(--color-cornflower);
 }
@@ -83,11 +89,11 @@ body {
     color: var(--color-ocean);
 }
 
-.adress-link {
+.adress-link .list {
     font-style: normal;
 }
 
-.adress-link .link .contact-list {
+.adress-link .contact-list .link {
     list-style: none;
 }
 
@@ -105,18 +111,26 @@ body {
     color: var(--color-ocean);
 }
 
+/**
+  |============================
+  | Hero section
+  |============================
+*/
+
 .hero {
     width: 1440px;
     height: 600px;
     background-color: var(--color-navy-blue);
 }
 
-.hero>h1 {
+.hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     color: var(--color-white);
     text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     padding-top: 188px;
     padding-left: 472px;
     width: 496px;
@@ -128,6 +142,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.04em;
     background: var(--color-iris);
     color: var(--color-white);
     width: 169px;
@@ -141,37 +156,39 @@ body {
     background-color: var(--color-ocean);
 }
 
-.advantage-list {
+/**
+  |============================
+  | 2nd section
+  |============================
+*/
+
+.advantage-list .list {
     list-style: none;
 }
 
-.advantage-list>li>h3 {
+.advantage-list .title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 }
 
-.advantage-list>li {
+.advantage-list .list>li {
     width: 264px;
 }
 
-.advantage-list>li>p {
+.advantage-list-text {
     font-size: 16px;
     line-height: 24px;
     color: inherit;
 }
 
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    color: var(--color-navy-blue);
-}
-
-.title .list {
-    list-style: none;
-}
+/**
+  |============================
+  | Team section
+  |============================
+*/
 
 .team-section {
     background-color: var(--color-cloud);
