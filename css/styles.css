@@ -154,8 +154,7 @@ body {
   | 2nd section
   |============================
 */
-
-.advantage-list .list {
+.advantage-list .title .advantage-list .list {
     list-style: none;
 }
 
