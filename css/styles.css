@@ -33,7 +33,7 @@ body {
     text-decoration: none;
 }
 
-.head-logo .logo {
+.head-logo .link {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -46,10 +46,6 @@ body {
 
 .head-logo .logo-studio {
     color: var(--color-navy-blue);
-}
-
-.footer {
-    background-color: var(--color-navy-blue);
 }
 
 .footer .logo {
@@ -71,11 +67,11 @@ body {
     color: var(--color-cloud)
 }
 
-.list {
+.head-logo .list {
     list-style: none;
 }
 
-.nav-link .link {
+.head-logo .nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -84,20 +80,19 @@ body {
     color: var(--color-navy-blue);
 }
 
-.nav-link .link:hover,
-.nav-link .link:focus {
+.head-logo .nav-link:hover,
+.head-logo .nav-link:focus {
     color: var(--color-ocean);
 }
 
 .adress-link {
     font-style: normal;
-}
-
-.adress-link {
     list-style: none;
 }
 
 .adress-link .link {
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
