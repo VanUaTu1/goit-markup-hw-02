@@ -308,11 +308,13 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 }
 
-.portfolio-content-list .link>p {
+.portfolio-content-text {
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--color-slate);
 }
