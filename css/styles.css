@@ -262,6 +262,10 @@ body {
   |============================
 */
 
+.portfolio-section .list {
+    list-style: none;
+}
+
 .filter-button {
     cursor: pointer;
     font-family: inherit;
@@ -270,6 +274,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.04em;
     color: var(--color-iris);
     background-color: var(--color-cloud);
     border: 1px;
@@ -283,11 +288,11 @@ body {
     border-radius: 4px;
 }
 
-.main-section-catalogue {
+.portfolio-content-list {
     list-style: none;
 }
 
-.main-section-catalogue .main-section-item {
+.portfolio-content-list .portfolio-content-item {
     width: 360px;
     height: 420px;
     background-color: var(--color-white);
@@ -295,23 +300,19 @@ body {
     border-color: var(--color-cornflower);
 }
 
-.main-section-catalogue .link {
+.portfolio-content-list .link {
     text-decoration: none;
 }
 
-.main-section-catalogue .link>h2 {
+.portfolio-content-list .link>h2 {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: var(--color-navy-blue);
 }
 
-.main-section-catalogue .link>p {
+.portfolio-content-list .link>p {
     font-size: 16px;
     line-height: 24px;
     color: var(--color-slate);
-}
-
-.button-list {
-    list-style: none;
 }
